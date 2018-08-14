@@ -10,10 +10,10 @@ https://www.packtpub.com/mapt/book/big_data_and_business_intelligence/9781787122
 https://www.youtube.com/watch?v=YcTSilIfih0
 
 
-## Download node.js msi for running npm packages
+## Download node.js  for downloading and usinf npm packages
 
 
-# Step For installing and setupping environment
+# Step For installing and setuping environment
 
 ## installing the environment (where we will run , compile and deploy our contract)
 ```
@@ -25,19 +25,26 @@ npm install truffle -g
 npm install -g ethereumjs-testrpc
 ```
 
+or use ganache-cli as the package is moved here
+
+```
+npm install -g ganache-cli
+```
+
+
 ## To start with truffle project write the below command in CMD or Powershell for windows 10 (use powershell if CMD is not allowing the truffle.js/Module error )
 
 inside project
 ```
 truffle init
 ```
-## Run testrpc in another powershell/CMD window
+## Run testrpc or ganache in another powershell/CMD window
 ```
 testrpc 
 ```
 
 
-open project //inside a editor
+open project //inside an editor
 make a new .sol file in contract folder
 Write Your contract in solidity 
 
